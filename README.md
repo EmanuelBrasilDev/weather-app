@@ -1,18 +1,27 @@
-# React + Vite
+# Clima App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo simples de previsão do tempo feito com **React JS** e **Vite**, consumindo uma API de clima para exibir informações como temperatura, vento e previsão para 3 dias.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido como parte do meu **Portfolio de projetos de front-end**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔹 Funcionalidades
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Pesquisar clima por cidade
+- Exibir temperatura, descrição e vento
+- Mostrar previsão para os próximos 3 dias
+- Botão **Buscar** para pesquisar o clima
+- Botão **Atualizar** para recarregar a página
+- Layout moderno, responsivo e estilizado
+- Mensagens de erro amigáveis quando a cidade não é encontrada
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React JS](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- JavaScript (ES6+)
+- CSS moderno e responsivo
+- API gratuita de clima: [GoWeather](https://goweather.herokuapp.com/)
